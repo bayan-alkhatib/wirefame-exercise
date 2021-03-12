@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    background-color: rgb(61, 60, 60);
+    padding:30px ;
+}
+header img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:35px ;
+    clear:both;
+    
+}
+
+ul{
+    display: inline;
+    margin:25px;
+}
+
+li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 25px;
+    margin-right: 120px;
+    color: rgb(208, 212, 208);
+}
+
+main{
+    position:relative;
+    width:90%;
+    margin:auto;
+}
+
+main img{
+  margin-top: 30px;
+  width: 100%;
+} 
+
+main section {
+    display: table;
+    width: 100% ;
+}
+main :nth-child(2) img{
+    float:left;
+    width:33.33%;
+    padding-right:35px ;   
+}
+
+#secImg {
+    padding-right:0px;
+    height: 71vh; 
+    padding-bottom:0; 
+}
+article img{
+    width: 50%;
+    display:inline-block ;
+}
+
+div{
+    width:50%;
+    float:right;
+    padding:30px;
+    padding-bottom:0;
+    padding-right: 0;
+   
+    
+   }
+
+div h1{
+    font-weight:bold;
+    margin-bottom:20px ;
+    font-size: larger;
+}
+div p{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height:60vh ;
+}
+button{
+    border-radius:10px ;
+    margin-top: 20px; ;
+    transition: color 350ms;
+    padding: 15px 70px;
+    background-color: black;
+    color: rgb(255, 250, 250);
+    font-size: larger;
+    border: none;
+}
+
+footer{
+    margin-top:30px ;
+    padding:50px;
+   background-color: rgb(61, 60, 60);
+
+}
+
